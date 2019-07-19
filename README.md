@@ -1,1 +1,3 @@
-# Tennis forum page
+# tennis forum page
+
+forum static page 
