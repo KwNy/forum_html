@@ -1,169 +1,92 @@
-<html>
+<!DOCTYPE html>
+<html lang=en>
     <head>
-        <title>mennisforum</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/starter-template.css" rel="stylesheet">
+        <title>men_tennis_forum</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta charset="utf-8">
-        <!-- <link rel="stylesheet" href="w3.css"> -->
     </head>
-    <style>
+<body>
+<div role="main" class="container">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm bg-light navbar-light ">
+        <a class="navbar-brand" href="#">Navigate</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
 
-    body {font-family: "Lucida Sans", Arial, sans-serif;
-  font-size: 1.0625rem;
-  line-height: 1.5rem;
-  background-color: white;
-    }
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Other</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Ranking</a>
+                <a class="dropdown-item" href="#">General topics</a>
+              </div>
+            </li>
+          </ul>
 
+          <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
 
-    ul{list-style-type: none;}
+      <div class="row">
+        <div class="col-sm-4">
+          <ul>
+            <li id="side-title"><h3>General topics</h3></li>
+            <li><img src='src/images/tenis.png'><p>A serve (sometimes called a service) is a shot to start a point. The serve is usually started by tossing the ball.</li>
+            <hr/>
+            <p class="red-brackets-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <li><img src='src/images/tenis.png' alt="tesnnisracquet"><hr/>A serve (sometimes called a service) is a shot to start a point.</li>
+          </ul>
+        </div>
+        
+        <div class="col-sm-8" style="background-color:white;">
+          <section>
+            <h1>Tennis forum</h1>
+            <hr/>
+            <h3 class="quote">“When you do something best in life, you don't really want to give that up – and for me it's tennis”</h3>
+            <h5>Roger Federer</h5>
+            <hr/>
+          </section>
+          <section>
+            <p>There are many different kinds of courts, like grass, clay or hard court. The goal 
+                of tennis is to hit the ball over the net into the other player’scourt. When the other
+                  player cannot return the ball, a point is won. The game is played with two or four people.
+                  When it is played with two people, it is called 
+                “singles”, and when it is played with four people, it is called “doubles”. The court has 
+        "alleys" on each side, which are "fair" territory when playing doubles.</p>
+            </section>
+        </div>
 
-    .clr{clear: both;}
-    .col-sm-8{padding:20px;}
+      </div>
 
-    footer{
-    text-align: center;
-    background-color: #f9f9f9;}
+    </div>
 
-    .quote{
-        background: #f9f9f9;
-     border-left: 10px solid #ccc;
-     margin: 1.5em 10px;
-    padding: 0.5em 10px;}
+  <div class="clr"></div>
+  <footer>TennisForum 2018</footer>
+</div>
 
-    .red-brackets-text{font-size: small;color: black;}
-
-img {
-border-radius: 50%;
-height: 30%;
-border: 5px solid black;
-padding:10px;
-}
-
-p {text-align: justify;}
-
-.col-sm-4{border-right: 5px solid #ccc;padding:20px}
-    </style>
-
-
-    <body>
-
-
-                  <main role="main" class="container">
-<!-- 
-                        <div class="starter-template">
-
- -->
-
-                                <div class="container-fluid">
-
-                                        
-            <nav class="navbar navbar-expand-sm bg-light navbar-light ">
-                    <a class="navbar-brand" href="#">Navigate</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-              
-                    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link disabled" href="#">Other</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Topics</a>
-                          <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Ranking</a>
-                            <a class="dropdown-item" href="#">General topics</a>
-                          </div>
-                        </li>
-                      </ul>
-                      <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                      </form>
-                    </div>
-                  </nav>
-                                        <div class="row">
-                                          <div class="col-sm-4">
-                                                <ul>
-                                                        <li id="side-title"><h3>General topics</h3></li>
-
-                                                         <li>
-                                                         <img src='tenis.png'>
-                                                         <p>A serve (sometimes called a service) is a shot to start a point. The serve is usually started by tossing the ball.</p>
-                                                        <hr/>
-                                                           <p class="red-brackets-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    </li>
-                                                
-                                                            <li>
-                                                                    <img src='tenis.png' alt="tesnnisracquet">
-                                                                    <hr/>
-                                                                    <p>A serve (sometimes called a service) is a shot to start a point. The serve is usually started by tossing the ball.</p>
-                                                                    <p class="red-brackets-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                                </li>
-                                                
-                                                        </ul>
-                                        
-                                        </div>
-                                          <div class="col-sm-8" style="background-color:white;">
-                                                <header>
-                                                        <h1>Tennis forum</h1>
-                                                        <hr/>
-                                                        <h3 class="quote">“When you do something best in life, you don't really want to give that up – and for me it's tennis”</h3>
-                                                        <h5>Roger Federer</h5>
-                                                        <hr/>
-                                                </header>
-                                                <p>
-                                                    There are many different kinds of courts, like grass, clay or hard court. 
-                                                    The goal of tennis is to hit the ball over the net into the other player’s
-                                                     court. When the other player cannot return the ball, a point is won. The game 
-                                                     is played with two or four people. When it is played with two people, it is called 
-                                                     “singles”, and when it is played with four people, it is called “doubles”. The court has 
-                                                     "alleys" on each side, which are "fair" territory when playing doubles.
-                                    
-                                                    A tennis game has a number of sets. Each set has a number of games, and each game has points. 
-                                                    The points are counted love (0, after the French l'oeuf), fifteen (15), thirty (30), and forty (40).
-                                                     If both players get to forty, the score is deuce from which 2 more points are needed to win the game. 
-                                                     When one player reaches six games, it is one set. If it is a three-set match, the player who wins two sets
-                                                      first is the winner. If the game count reaches 5–5, the set must be won with two more games than the other player,
-                                                       like 7–5 or 8–6. If the game count gets to 6–6, a "tiebreaker" is played. In a tiebreak, players have to get at least 
-                                                    seven points while getting two more points than the other player to win the set. In tiebreak points are
-                                                     called “one,” “two,” etc.</p>
-
-                                                     <p>
-                                                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                                                     </p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-    
-
-                
-
-    <!-- </div> -->
-
-        <div class="clr"></div>
-
-        <footer>
-            TennisForum 2018
-        </footer>
-
-    </main>
-
-     <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="../../assets/js/vendor/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    </body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+<script src="../../assets/js/vendor/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
