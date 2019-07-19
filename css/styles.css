@@ -1,0 +1,40 @@
+
+body {font-family: "Lucida Sans", Arial, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.5rem;
+    background-color: white;
+    }
+    
+    
+    ul{list-style-type: none;}
+    
+    .clr{clear: both;}
+    
+    .col-sm-8{padding:20px;}
+    
+    footer{
+    text-align: center;
+    background-color: #f9f9f9;}
+    
+    .quote{
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;}
+    
+    .red-brackets-text{font-size: small;
+    color: black;}
+    
+    img {
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    height:128px;
+    width:128px;
+    border: 5px solid black;
+    padding:10px;
+    }
+    
+    p {text-align: justify;}
+    
+    .col-sm-4{border-right: 5px solid #ccc;
+    padding:20px}
